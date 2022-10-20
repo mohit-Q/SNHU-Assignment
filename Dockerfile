@@ -8,5 +8,5 @@ RUN pip install -r requirements.txt
 
 COPY .  .
 
-CMD ["python","./SNHU/v1/utils/main.py"]
+CMD ["python","./SNHU/v1/utils/inference.py"]
 
